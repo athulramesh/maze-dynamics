@@ -1,0 +1,62 @@
+.plot {
+  display: flex;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+}
+.block {
+  height: 12px;
+  width: 12px;
+  padding: 1px;
+  background-color: #ade8f4;
+}
+.start,
+.hovs:hover {
+  background-color: #ea3546;
+}
+.start:hover,
+.end:hover {
+  cursor: pointer;
+}
+
+.end,
+.hove:hover {
+  background-color: #132a13;
+}
+.wall {
+  background-color: #4a5759;
+}
+
+.path {
+  background-color: #43aa8b;
+}
+button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1em;
+  padding-top: 0.5em;
+  background-color: rgba(51, 51, 51, 0.5);
+  padding-bottom: 0.5rem;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+  transition: all 0.2s;
+}
+
+.grid {
+  padding: 20px;
+}
